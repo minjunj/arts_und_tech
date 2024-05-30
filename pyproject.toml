@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "arts-und-tech"
+version = "0.1.0"
+description = ""
+authors = ["Shiwon Park <psw041115@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.1"
+python-dotenv = "^1.0.1"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
